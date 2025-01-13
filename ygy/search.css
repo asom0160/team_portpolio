@@ -1,12 +1,12 @@
-body {
+.site {
   width: 375px;
   height: 903px;
+  background-color:#FFFFFF;
 }
 
 header {
   width: 375px;
   height: 54px;
-  background-color: antiquewhite;
   align-items: center;
 }
 .title {
@@ -36,6 +36,7 @@ header {
   margin-left: 6px;
   border-radius: 8px;
   border: 1px solid #dfe2e0;
+  margin-bottom: 5px;
 }
 .photo {
   width: 375px;
@@ -46,10 +47,20 @@ header {
   width: 375px;
   display: flex;
   flex-direction: row;
+
 }
 .photo > .dan > li {
   width: 124px;
   height: 124px;
   object-fit: cover;
-  margin: 1px;
+
+}
+.layout{
+Width: 375px;
+height: 50px;
+display: flex;
+flex-direction: row;
+gap: 50px;
+padding: 14px 30px;
+font-size: 22px;
 }
