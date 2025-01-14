@@ -12,7 +12,7 @@
 
   border-bottom: 1px solid #e0e0e0;
   /* overflow: hidden; */
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: scroll;
 }
 .post_profile {

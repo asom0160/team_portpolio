@@ -2,33 +2,38 @@
   margin-top: 15px;
 
   width: 100%;
+  height: 62vh;
 
   display: flex;
   flex-direction: column;
 }
 
-.message > .content > ul {
+.message > ul {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.message > .content > ul > li {
+.message > ul > li {
   text-align: center;
   border-bottom: 1px solid #737373;
   color: #737373;
   padding-bottom: 8px;
   font-size: 14px;
 }
-.message > .content > ul > .black {
+.message > ul > .black {
   font-weight: 400;
   border-bottom: 2px solid black;
   color: black;
 }
 
-.message > .content > ul > .blue {
+.message > ul > .blue {
   font-weight: 400;
   color: #0282d1;
+}
+.content {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .card-layout {
@@ -37,6 +42,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.card-layout > img {
+  width: 21px;
+  margin-right: 20px;
 }
 
 .card-layout > figure {

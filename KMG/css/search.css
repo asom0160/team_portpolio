@@ -1,4 +1,10 @@
 .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_box {
   margin-top: 22px;
   margin-bottom: 15px;
 
@@ -15,4 +21,8 @@
   align-items: center;
 
   border-radius: 8px;
+}
+
+.search > .search_box > img {
+  width: 14px;
 }
