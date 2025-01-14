@@ -27,7 +27,7 @@
 .firststory > figure{
     height: 50.05px;
     width: 50.05px;
-    background-image: url("glasses.jpg");
+    background-image: url("../img/glasses.jpg");
     background-size: cover;
     border-radius: 9999px;
 }
@@ -45,7 +45,7 @@
 .secondstory > figure{
     height: 50.05px;
     width: 50.05px;
-    background-image: url("tunnel-2588054_1280.jpg");
+    background-image: url("../img/tunnel-2588054_1280.jpg");
     background-size: cover;
     border-radius: 9999px;
 
@@ -64,7 +64,7 @@
 .thirdstory > figure{
     height: 50.05px;
     width: 50.05px;
-    background-image: url("pocket-watch-2061228_1280.jpg");
+    background-image: url("../img/pocket-watch-2061228_1280.jpg");
     background-size: cover;
     border-radius: 9999px;
 
@@ -83,7 +83,7 @@
 .fourstory > figure{
     height: 50.05px;
     width: 50.05px;
-    background-image: url("shish-kebab-417994_1280.jpg");
+    background-image: url("../img/shish-kebab-417994_1280.jpg");
     background-size: cover;
     border-radius: 9999px;
 
@@ -102,7 +102,7 @@
 .fivestory > figure{
     height: 50.05px;
     width: 50.05px;
-    background-image: url("art-1840481_1280.jpg");
+    background-image: url("../img/art-1840481_1280.jpg");
     background-size: cover;
     border-radius: 9999px;
 
