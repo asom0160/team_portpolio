@@ -1,0 +1,25 @@
+article{
+    width: 375px;
+    height: 860px;
+    border: 1px solid black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+
+}
+.firstblock{
+    width: 334px;
+    height: 35px;
+
+}
+.firstblockrleft > img{
+    width: 30px;
+    height: 8px;
+}
+.firstblockright > img{
+    width: 25px;
+    height: 23px;
+}

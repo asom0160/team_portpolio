@@ -1,0 +1,21 @@
+.secondbox{
+    width: 100%;
+    height: 31px;
+    border: 1px solid black;
+    display: flex;
+
+    
+}
+.secondboxleft{
+    display: flex;
+    width: 50vw;
+
+}
+.secondboxleft > p{
+    margin-left: 40px;
+}
+.secondboxright{
+    float: right;
+    width: 50vw;
+    
+}
