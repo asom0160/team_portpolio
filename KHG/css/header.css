@@ -1,13 +1,12 @@
 article{
     width: 375px;
-    height: 860px;
-    border: 1px solid black;
+    height: 89vh;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+
 
 }
 .firstblock{

@@ -1,6 +1,8 @@
 .photoposts{
     width: 100%;
-    height: 375px;
+    height: 46.5vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
 }
 .cardlayout{
@@ -11,7 +13,7 @@
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 1px;
     grid-row-gap: 1px;
     
