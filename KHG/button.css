@@ -1,0 +1,31 @@
+.buttonblock{
+    height: 41px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.buttonblock > .leftbutton{
+    width: 145px;
+    height: 25px;
+    background-color: #0090FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.buttonblock > .rightbutton{
+    width: 145px;
+    height: 25px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+.buttonblock > .lastbutton{
+    width: 25px;
+    height: 25px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}

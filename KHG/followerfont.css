@@ -1,0 +1,11 @@
+.profilefont{
+    height: 49px;
+    width: 100%;
+
+}
+.profilefont > p{
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 6px;
+}

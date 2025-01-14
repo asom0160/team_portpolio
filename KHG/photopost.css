@@ -1,0 +1,22 @@
+.photoposts{
+    width: 100%;
+    height: 375px;
+
+}
+.cardlayout{
+    width: 100%;
+    height: 100%;
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    
+}
+.parent > figure > img{
+    width: 100%;
+    height: 100%;
+}
