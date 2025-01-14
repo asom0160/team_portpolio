@@ -1,0 +1,101 @@
+.message {
+  margin-top: 15px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.message > .content > ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.message > .content > ul > li {
+  text-align: center;
+  border-bottom: 1px solid #737373;
+  color: #737373;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+.message > .content > ul > .black {
+  font-weight: 400;
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.message > .content > ul > .blue {
+  font-weight: 400;
+  color: #0282d1;
+}
+
+.card-layout {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-layout > figure {
+  width: 100%;
+  height: 85px;
+  padding-left: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-layout > figure > .img-border {
+  width: 65px;
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100%;
+}
+.card-layout > figure > .img-border > img {
+  border: 3px solid white;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+.card-layout > figure > div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.card-layout > figure > div > p {
+  color: #7d7d7d;
+}
+
+.card-layout > figure > .gradient {
+  background: linear-gradient(
+    144deg,
+    rgba(250, 240, 6, 1) 0%,
+    rgba(250, 204, 5, 1) 15%,
+    rgba(255, 0, 0, 1) 74%,
+    rgba(103, 1, 233, 1) 96%,
+    rgba(103, 1, 233, 1) 100%
+  );
+}
+.card-layout > figure > .Active {
+  width: 65px;
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-layout > figure > .Active > img {
+  border: 3px solid white;
+  width: 55px;
+  height: 55px;
+}

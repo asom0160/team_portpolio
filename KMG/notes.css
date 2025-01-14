@@ -1,0 +1,43 @@
+.notes {
+  width: 100%;
+  height: fit-content;
+}
+.notes > .content {
+  width: 100%;
+  padding-left: 17px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notes > .content > .box {
+  border: 1px solid #bbbbbb;
+  border-radius: 17px;
+
+  padding: 15px;
+
+  width: 130px;
+  height: 100px;
+
+  color: #898989;
+  font-size: 12px;
+  line-height: 18px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.notes > .content > .box > .box_title {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+
+  color: black;
+  font-size: 10px;
+  font-weight: 400;
+}
+.notes > .content > .box > .box_title > img {
+  height: 15px;
+  width: 15px;
+}

@@ -1,0 +1,18 @@
+.search {
+  margin-top: 22px;
+  margin-bottom: 15px;
+
+  background-color: #e8e8e8;
+  width: 345px;
+  height: 36px;
+  padding-left: 12.18px;
+
+  font-size: 14px;
+  color: #c0c0c0;
+
+  display: flex;
+  gap: 15.25px;
+  align-items: center;
+
+  border-radius: 8px;
+}

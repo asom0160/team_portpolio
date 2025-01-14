@@ -1,13 +1,13 @@
 .page > .title {
+  width: 100%;
+
   height: 31px;
-
-  padding: 4px 15px 4px 20px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .page > .title > .content {
+  padding-left: 20px;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -23,6 +23,7 @@
   height: 100%;
 }
 .title > .icon {
+  padding-right: 15px;
   display: flex;
   gap: 21.83px;
   align-items: center;
