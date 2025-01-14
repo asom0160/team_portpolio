@@ -1,0 +1,23 @@
+.search {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.search > .button {
+  width: 363px;
+  height: 36px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  padding: 10px 0 10px 20px;
+  margin-left: 6px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.search > .button > p {
+  color: #868686;
+  margin-left: 5px;
+  font-size: 17px;
+  padding-bottom: 5px;
+}
